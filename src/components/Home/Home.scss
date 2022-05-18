@@ -1,0 +1,109 @@
+$font: "Roboto Flex", sans-serif;
+
+// PC
+#home {
+    width: 100vw;
+    background-color: black;
+}
+
+.home__carousel {
+    position: absolute;
+    top: 25%;
+    left: 3.1%;
+    h1 {
+        font-family: $font;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 6rem;
+        color: white;
+        text-shadow: -1px 2.5px 4px rgba(0, 0, 0, 0.519);
+        letter-spacing: 5px;
+        position: relative;
+        top: 25%;
+        left: 5%;
+        z-index: 2;
+    }
+
+    a {
+        position: relative;
+        top: 27%;
+        left: 5%;
+        z-index: 2;
+        button {
+            border: none;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            font-family: $font;
+            font-size: 0.8rem;
+            letter-spacing: -0.1px;
+            text-transform: uppercase;
+            padding: 10px 30px;
+            margin-top: 3%;
+            transition: all 0.2s ease;
+        }
+    }
+    button:hover {
+        transform: scale(0.97, 0.97);
+    }
+}
+
+// CAROUSEL
+.layer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+.carousel {
+    z-index: 0;
+}
+.carousel-caption {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    color: rgb(255, 255, 255);
+    text-align: initial;
+}
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators {
+    display: none;
+}
+.carousel::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.241);
+    z-index: 0;
+}
+
+// Carousel 1
+.background1 {
+    background-image: url("../../assets/img/background.jpg");
+    background-size: cover;
+    // background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+.background2 {
+    @extend.background1;
+    background-image: url("../../assets/img/2.jpg");
+}
+.background3 {
+    @extend.background1;
+    background-image: url("../../assets/img/3.jpg");
+}
+
+// Tablet
+@media (max-width: 991px) {
+}
+
+// Mobile
+@media (max-width: 576px) {
+}

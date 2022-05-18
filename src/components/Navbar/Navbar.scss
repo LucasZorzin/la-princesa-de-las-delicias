@@ -1,0 +1,75 @@
+$font: 'Roboto Flex', sans-serif;
+
+// PC
+#navbar {
+    z-index: 5;
+    height: 7vh;
+    width: 100vw;
+    ////! Al hacer on top:
+    // background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.86));
+    ////! Al desplazar hacia abajo:
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    max-width: initial;
+    padding: 0 3%;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.logo {
+    max-height: 6vh;
+}
+.logo-title{
+    font-family: $font;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+    font-size: .95rem;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+#basic-navbar-nav {
+    justify-content: flex-end;
+}
+.nav-items {
+    margin-right: initial !important;
+    a {
+        text-transform: uppercase;
+        font-family: $font;
+        letter-spacing: 0px;
+        font-weight: 200;
+        font-size: .8rem;
+        color: rgb(255, 255, 255) !important;
+        margin-right: 0.93rem !important;
+        transition: all .1s ease;
+    }
+    a:hover{
+        color:rgb(244, 197, 255) !important;
+    }
+}
+#cart-icon {
+    // position: absolute !important;
+    // right: 10% !important;
+    // top: 0 !important;
+    transform: translate(0,-11%);
+    cursor: pointer;
+    svg {
+        height: 25px !important;
+        width: 18px;
+        fill: white;
+        transition: all .1 ease;
+    }
+    svg:hover{
+        fill: rgb(244, 197, 255);
+    }
+}
+
+// Tablet
+@media (max-width: 991px) {
+}
+
+// Mobile
+@media (max-width: 576px) {
+}
