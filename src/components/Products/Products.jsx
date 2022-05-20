@@ -9,8 +9,7 @@ function Products() {
             .then(response => response.json())
             .then((products) => {
                 setDataProduct(products);
-            }
-            )
+            })
     }
 
     useEffect(() => {
@@ -28,7 +27,7 @@ function Products() {
                             <h2 class="text-white center-text pt-4 text-uppercase">{product.nombre}</h2>
                             <p class="pt-2">{product.descripcion}</p>
                             <button class="btn-cart">AÑADIR AL CARRITO</button>
-                            {product.link != 'no' && <a target="_blank" href={product.link}><button class="btn-cart btn-cart--ml">VER EN MERCADO LIBRE</button></a>}
+                            {product.link !== 'no' && <a target="_blank" href={product.link}><button class="btn-cart btn-cart--ml">VER EN MERCADO LIBRE</button></a>}
                         </div>
                     </article>
                 ))
