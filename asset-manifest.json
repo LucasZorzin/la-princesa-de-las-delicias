@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/la-princesa-de-las-delicias/static/css/main.b9853b3a.css",
-    "main.js": "/la-princesa-de-las-delicias/static/js/main.90951c52.js",
+    "main.css": "/la-princesa-de-las-delicias/static/css/main.94fe35e6.css",
+    "main.js": "/la-princesa-de-las-delicias/static/js/main.358dea1a.js",
     "static/js/787.99134b81.chunk.js": "/la-princesa-de-las-delicias/static/js/787.99134b81.chunk.js",
     "static/media/background.jpg": "/la-princesa-de-las-delicias/static/media/background.5cbff71dca1359746ad6.jpg",
     "static/media/3.jpg": "/la-princesa-de-las-delicias/static/media/3.f100df6b01603d436499.jpg",
     "static/media/logo.png": "/la-princesa-de-las-delicias/static/media/logo.0ed550768181eebf1b71.png",
     "static/media/2.jpg": "/la-princesa-de-las-delicias/static/media/2.d2f893867f903724a402.jpg",
     "index.html": "/la-princesa-de-las-delicias/index.html",
-    "main.b9853b3a.css.map": "/la-princesa-de-las-delicias/static/css/main.b9853b3a.css.map",
-    "main.90951c52.js.map": "/la-princesa-de-las-delicias/static/js/main.90951c52.js.map",
+    "main.94fe35e6.css.map": "/la-princesa-de-las-delicias/static/css/main.94fe35e6.css.map",
+    "main.358dea1a.js.map": "/la-princesa-de-las-delicias/static/js/main.358dea1a.js.map",
     "787.99134b81.chunk.js.map": "/la-princesa-de-las-delicias/static/js/787.99134b81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9853b3a.css",
-    "static/js/main.90951c52.js"
+    "static/css/main.94fe35e6.css",
+    "static/js/main.358dea1a.js"
   ]
 }
